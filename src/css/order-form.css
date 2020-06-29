@@ -1,0 +1,105 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+a {
+    color: #00968B;
+    text-decoration: none;
+    transition: color 0.25s;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.standard-table th:hover {
+    color: aqua;
+}
+
+body {
+    /* structure */
+    background-color: #4f6ca3;
+    /* presentation */
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: rgb(93, 197, 93);
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    color: rgb(93, 197, 93);
+}
+
+div {
+    text-align: center;
+}
+
+article {
+    margin: 10px;
+}
+
+.bordure {
+    border: 4mm ridge rgb(93, 197, 93);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.order-form-customer {
+    /* structure */
+    padding: 1em 0;
+    /* presentation */
+    text-align: center;
+}
+
+.standard-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.standard-table caption {
+    /* structure */
+    padding: 0.5em 0;
+    /* presentation */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.standard-table tbody tr {
+    transition: background-color 0.25s;
+}
+
+.standard-table tbody tr:nth-child(even),
+.standard-table tfoot tr:nth-child(even) {
+    background-color: rgb(93, 197, 93);
+}
+
+.standard-table tbody tr:nth-child(odd),
+.standard-table tfoot tr:nth-child(odd) {
+    background-color: green;
+}
+
+.standard-table td,
+.standard-table th {
+    padding: 0.25em 0.5em;
+}
+
+.standard-table th {
+    color: rgb(0, 0, 0);
+}
+
+.standard-table tfoot tr,
+.standard-table thead tr {
+    text-align: left;
+}
+
+.standard-table tfoot tr,
+.standard-table .money-column {
+    text-align: right;
+}

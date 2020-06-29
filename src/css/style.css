@@ -1,0 +1,54 @@
+.heroImage {
+    background-image: url("../images/theme/cover.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    background-color: rgb(95, 160, 95);
+}
+
+.titre,
+.bgBlue {
+    background-color: cadetblue;
+}
+
+.adminOption:hover {
+    border: 2px solid #252525;
+}
+
+.banner {
+    height: 200px;
+}
+
+.bordure2 {
+    border: 4mm ridge rgb(93, 197, 93);
+    margin-top: 55px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.sectionaddbons {
+    background-color: #4f6ca3;
+}
+
+#tableproducts {
+    margin-top: 50px;
+}
+
+.BC {
+    background-color: #252525;
+}
+
+@media screen and (min-width: 992px) {
+    .heroImage {
+        background-image: url("../images/theme/cover.jpg");
+    }
+    .banner {
+        height: 250px;
+    }
+}
